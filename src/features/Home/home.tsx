@@ -29,11 +29,11 @@ function Home() {
             <img src={images.soundCloud} alt="soundCloud" className='lg:w-[175px] lg:h-[54px] md:w-[145px] md:h-[50px] w-[120px] h-[40px]'></img>
           </div>
         </div>
-        <div className="absolute shadow-xl -bottom-30 xl:left-45 lg:left-30 md:left-10 left-5 right-5 -bottom-20 items-center  flex md:flex-row flex-col bg-white rounded-xl  md:max-w-175 lg:max-w-200 xl:max-w-250">
+        <div className="absolute shadow-xl -bottom-30 xl:left-45 lg:left-30 md:left-10 left-5 right-5 -bottom-40 items-center  flex md:flex-row flex-col bg-white rounded-xl  md:max-w-175 lg:max-w-200 xl:max-w-250">
           <img
             src={images.timmy}
             alt="timmy"
-            className="size-56 rounded-xl"
+            className="md:size-56  w-[300px] rounded-xl"
           ></img>
           <div className="flex-1 p-4 space-y-5">
             <div className=" flex justify-between gap-5">
@@ -77,7 +77,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col  justify-between md:mt-45 mt-40 text-foreground max-w-6xl mx-auto px-10 md:px-10 lg:px-10 max-h-[500px]">
+      <div className="flex lg:flex-row flex-col  justify-between md:mt-45 mt-55 text-foreground max-w-6xl mx-auto px-10 md:px-10 lg:px-10 max-h-[500px]">
         <div className="space-y-6 lg:max-w-[50%] md:w-full">
           <p className="lg:text-[40px] md:text-[30px] text-[20px] font-semibold lg:leading-13 md:leading-10">
             Best places to find

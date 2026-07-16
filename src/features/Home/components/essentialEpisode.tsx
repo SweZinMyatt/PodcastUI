@@ -35,7 +35,7 @@ const episodes = [
 ]
 function EssentialEpisode() {
   return (
-    <section className=' mt-20'>
+    <section className=' md:mt-20 mt-15'>
     <div className="max-w-6xl mx-auto md:px-10 lg:px-10 px-10 md:mb-20 mb-10">
       <h1 className="lg:text-[40px] md:text-[30px] text-[20px] mb-10 font-bold">Essential episodes:</h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
