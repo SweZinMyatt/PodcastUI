@@ -29,7 +29,7 @@ function Home() {
             <img src={images.soundCloud} alt="soundCloud" className='lg:w-[175px] lg:h-[54px] md:w-[145px] md:h-[50px] w-[120px] h-[40px]'></img>
           </div>
         </div>
-        <div className="absolute shadow-xl -bottom-30 xl:left-45 lg:left-30 md:left-10 left-5 right-5 -bottom-40 items-center  flex md:flex-row flex-col bg-white rounded-xl  md:max-w-175 lg:max-w-200 xl:max-w-250">
+        <div className="absolute shadow-xl -bottom-30 xl:left-45 lg:left-30 md:left-10 md:-bottom-20 left-5 right-5 -bottom-40 items-center  flex md:flex-row flex-col bg-white rounded-xl  md:max-w-175 lg:max-w-200 xl:max-w-250">
           <img
             src={images.timmy}
             alt="timmy"
