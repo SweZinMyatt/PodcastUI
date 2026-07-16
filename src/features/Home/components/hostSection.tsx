@@ -25,8 +25,8 @@ function HostSection() {
   return (
     <section className="max-w-6xl mx-auto  mt-15 px-10 lg:px-10 md:px-10">
       <div className="flex items-center justify-between">
-           <h1 className="lg:text-[40px] md:text-[30px] text-[20px] font-bold mb-10 md:pt-5 ">Meet your hosts:</h1>
-           <Link to="/hosts" className="flex md:text-[16px] text-[12px] mt-3 md:mt-0  md:items-center gap-3 font-bold">View all of them<ArrowRight/></Link>
+           <h1 className="lg:text-[40px] md:text-[30px] text-[20px] font-bold mb-10 md:pt-6 pt-7 ">Meet your hosts:</h1>
+           <Link to="/hosts" className="flex md:text-[16px] text-[12px] md:mt-0  md:items-center gap-3 font-bold">View all of them<ArrowRight/></Link>
       </div>
        
         <div className="grid md:grid-cols-3 gap-5">
