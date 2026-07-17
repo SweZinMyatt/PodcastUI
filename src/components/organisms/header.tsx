@@ -16,7 +16,7 @@ function Header() {
           <Link to="/shop">Shop</Link>
         </nav>
 
-        <div className='flex gap-5  items-center'>
+        <div className='flex gap-2  items-center'>
             <div className='flex md:gap-3 items-center md:text-[15px] text-[10px] font-bold'>
                 <Search/>
                 <span>Search</span>
