@@ -8,86 +8,108 @@ import { Link } from '@tanstack/react-router'
 
 function Home() {
   return (
-    <div className='w-full'>
+    <div className="w-full">
       <div
-        className="w-full h-screen bg-cover bg-center relative text-foreground"
+        className="w-full h-[200px] md:h-[300px] lg:h-screen md:bg-cover bg-contain bg-top bg-no-repeat relative text-foreground"
         style={{
           backgroundImage: `url(${images.image})`,
         }}
       >
-        <div className="absolute md:left-20 left-10 top-50 md:top-40">
-          <h1 className="lg:text-[65px] md:text-[45px] text-[18px] font-bold lg:leading-17 md:leading-12">
+        <div className="absolute md:left-20 left-10 top-10 md:top-15 lg:top-40">
+          <h1 className="lg:text-[65px] md:text-[25px] text-[14px] font-bold lg:leading-17 md:leading-9 leading-5">
             New episode
             <br />
             available now
           </h1>
-          <p className="lg:text-[19px] md:text-[17px] text-[14px] mt-4">
+          <p className="lg:text-[19px] md:text-[17px] text-[10px] mt-2">
             Available on Apple Soundcast and Spotify.
           </p>
-          <div className="flex flex-row items-center lg:gap-5 md:gap-3 gap-2 mt-8">
-            <img src={images.applePodcast} alt="applePodcast" className='lg:w-[175px] lg:h-[54px] md:w-[145px] md:h-[50px] w-[120px] h-[40px]'></img>
-            <img src={images.soundCloud} alt="soundCloud" className='lg:w-[175px] lg:h-[54px] md:w-[145px] md:h-[50px] w-[120px] h-[40px]'></img>
+          <div className="flex flex-row items-center lg:gap-5  gap-2 mt-3">
+            <img
+              src={images.applePodcast}
+              alt="applePodcast"
+              className="lg:w-[175px] lg:h-[54px] md:w-[100px] md:h-[20px] w-[80px] h-[20px]"
+            ></img>
+            <img
+              src={images.soundCloud}
+              alt="soundCloud"
+              className="lg:w-[175px] lg:h-[54px] md:w-[100px] md:h-[20px] w-[80px] h-[20px]"
+            ></img>
           </div>
         </div>
-        <div className="absolute shadow-xl -bottom-30 xl:left-45 lg:left-30 md:left-10 md:-bottom-20 left-5 right-5 -bottom-40 items-center  flex md:flex-row flex-col bg-white rounded-xl  md:max-w-175 lg:max-w-200 xl:max-w-250">
+        <div className="absolute shadow-xl  xl:left-[15%]  xl:top-[100%] -translate-y-1/2  lg:left-30 lg:top-150 md:left-25 md:top-75 right-5 -bottom-25 items-center  flex md:gap-5 bg-white rounded-xl h-[100px] md:h-[150px] lg:h-[250px] max-w-120 md:max-w-140 lg:max-w-200 xl:max-w-250">
           <img
             src={images.timmy}
             alt="timmy"
-            className="md:size-56  w-[300px] rounded-xl"
+            className="lg:size-[250px] md:size-[150px] size-25 rounded-xl"
           ></img>
           <div className="flex-1 p-4 space-y-5">
             <div className=" flex justify-between gap-5">
               <div>
-                <h2 className="lg:text-[35px] md:text-[25px] text-[14px] font-bold md:leading-7 lg:leading-10">
+                <h2 className="md:pt-0 pt-4 lg:text-[30px] md:text-[20px] text-[12px] font-bold leading-3 md:leading-7 lg:leading-10">
                   Timmy Mike:the nature
                   <br />
                   of design
                 </h2>
-                <div className="text-muted-foreground mt-3 lg:text-[14px] md:text-[13px] text-[10px]">
+                <div className="text-muted-foreground md:mt-3 mt-1 lg:text-[14px] md:text-[13px] text-[8px]">
                   <span>Episode 1.</span>
                   <span>Microphone.</span>
                   <span>0:13</span>
                 </div>
               </div>
 
-              <p className="flex gap-2 md:text-[16px] text-[14px] lg:mt-4 md:mt-2">
+              <p className="flex   md:text-[13px] text-[10px] lg:mt-4 md:mt-2 mt-4">
                 Episode page
-                <ArrowRight />
+                <ArrowRight className="md:size-[24px] size-[14px]" />
               </p>
             </div>
-            <div className="flex lg:gap-3 gap-2 mt-3">
-              <img src={images.play} alt="play image" className='lg:size-12 md:size-10 size-9'></img>
-              <p className="italic mt-5 lg:text-[13px] md:text-[10px] text-[8px] text-muted-foreground">
+            <div className="flex lg:gap-3 gap-2 md:mt-3">
+              <img
+                src={images.play}
+                alt="play image"
+                className="lg:size-12 md:size-10 size-7 md:pb-1 pb-3"
+              ></img>
+              <p className="italic md:mt-5 mt-2  lg:text-[13px] md:text-[10px] text-[6px] text-muted-foreground">
                 10s
               </p>
-              <p className="italic mt-5 lg:text-[13px] md:text-[10px] text-[8px] text-muted-foreground">
+              <p className="italic md:mt-5 mt-2 lg:text-[13px] md:text-[10px] text-[6px] text-muted-foreground">
                 10s
               </p>
-              <div className="mt-6">
-                <img src={images.slider} alt="slider" className='xl:w-130 lg:w-100 md:w-60 w-25'></img>
+              <div className="md:mt-6 mt-3">
+                <img
+                  src={images.slider}
+                  alt="slider"
+                  className="xl:w-130 lg:w-100 md:w-90 w-25 "
+                ></img>
               </div>
 
-              <p className="italic mt-5 lg:text-[13px] text-[10px] text-muted-foreground">
+              <p className="italic md:mt-5 mt-2 lg:text-[13px] text-[8px] text-muted-foreground">
                 00:00/00:00
               </p>
-              <span className="lg:mt-5 md:mt-4 mt-5 text-foreground">
-                <Volume2  className='md:size-6 size-3.5'/>
+              <span className="lg:mt-5 md:mt-4 mt-2 text-foreground">
+                <Volume2 className="md:size-6 size-3" />
               </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col  justify-between md:mt-45 mt-55 text-foreground max-w-6xl mx-auto px-10 md:px-10 lg:px-10 max-h-[500px]">
+      <div className="flex lg:flex-row flex-col  justify-between md:mt-35 lg:mt-40 mt-20 text-foreground max-w-6xl mx-auto px-10 md:px-10 lg:px-10 max-h-[500px]">
         <div className="space-y-6 lg:max-w-[50%] md:w-full">
           <p className="lg:text-[40px] md:text-[30px] text-[20px] font-semibold lg:leading-13 md:leading-10">
             Best places to find
             <br /> design inspiration
           </p>
           <div className="flex gap-3">
-            <img src={images.play} alt="play" className='lg:size-[70px] md:size-[50px] size-[40px]'></img>
+            <img
+              src={images.play}
+              alt="play"
+              className="lg:size-[70px] md:size-[50px] size-[40px]"
+            ></img>
             <div className="lg:mt-5 md:mt-3">
-              <p className='md:text-[16px] text-[13px]'>Episode 1</p>
-              <p className="text-muted-foreground md:text-[13px] text-[10px]">Category.0:13</p>
+              <p className="md:text-[16px] text-[13px]">Episode 1</p>
+              <p className="text-muted-foreground md:text-[13px] text-[10px]">
+                Category.0:13
+              </p>
             </div>
           </div>
           <div className="lg:text-[17px] text-[12px]">
@@ -99,7 +121,10 @@ function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
-          <Link to="/episodePage" className="lg:text-[16px] text-[12px] flex items-center gap-3 font-bold">
+          <Link
+            to="/episodePage"
+            className="lg:text-[16px] text-[12px] flex items-center gap-3 font-bold"
+          >
             Episode page
             <ArrowRight />
           </Link>
