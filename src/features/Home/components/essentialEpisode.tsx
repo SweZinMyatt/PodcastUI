@@ -70,7 +70,7 @@ function EssentialEpisode() {
     </div>
     <div className='relative w-full'>
         <img src={images.video} alt="video"></img>
-        <span className='md:size-10 size-8 rounded-full bg-white flex items-center justify-center top-16 left-50 xl:top-60 lg:top-40 lg:left-130 md:top-30 md:left-90 xl:left-170 absolute'><Play className='text-black size-4'/></span>
+        <span className='md:size-10 size-8 rounded-full bg-white flex items-center justify-center top-1/2 left-1/2 absolute'><Play className='text-black size-4'/></span>
     </div>
     </section>
   )
