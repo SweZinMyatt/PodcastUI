@@ -5,7 +5,7 @@ import {Search} from "lucide-react"
 function Header() {
   return (
     <>
-      <div className="flex flex-row pb-12 items-center md:justify-between gap-3  text-black z-1 absolute  w-full h-25 md:px-10 px-5">
+      <div className="flex flex-row pb-17 items-center md:justify-between gap-3  text-black z-1 absolute  w-full h-25 md:px-10 px-7">
         <img src={images.logo} alt="logo" className='md:w-33 md:h-[20px] w-[70px] h-[15px]'></img>
 
         <nav className="flex md:gap-5 gap-2 items-center md:text-[15px] text-[10px] font-bold">

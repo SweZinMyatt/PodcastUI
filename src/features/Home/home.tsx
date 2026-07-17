@@ -37,11 +37,20 @@ function Home() {
             ></img>
           </div>
         </div>
-        <div className="absolute shadow-xl  xl:left-[15%]  xl:top-[100%] -translate-y-1/2  lg:left-30 lg:top-150 md:left-25 md:top-75 right-5 -bottom-25 items-center  flex md:gap-5 bg-white rounded-xl h-[100px] md:h-[150px] lg:h-[250px] max-w-120 md:max-w-140 lg:max-w-200 xl:max-w-250">
+        <div
+          className="absolute shadow-xl bg-white rounded-xl flex items-center 
+  bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2
+  w-[90%] h-[100px] gap-2
+  md:left-[10%] md:top-[100%] md:translate-x-0 md:-translate-y-1/2
+  md:w-[80%] md:h-[150px] md:gap-5
+  lg:left-[12%] lg:top-[100%]
+  lg:max-w-[80%] lg:h-[200px] xl:w-[90%]
+  xl:left-[10%] xl:top-full"
+        >
           <img
             src={images.timmy}
             alt="timmy"
-            className="lg:size-[250px] md:size-[150px] size-25 rounded-xl"
+            className="lg:size-[200px] md:size-[150px] size-25 rounded-xl"
           ></img>
           <div className="flex-1 p-4 space-y-5">
             <div className=" flex justify-between gap-5">
