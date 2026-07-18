@@ -10,11 +10,11 @@ function Home() {
   return (
     <div className="w-full">
       <div
-  className="w-full h-[200px] sm:h-[260px] md:h-[300px] lg:h-screen bg-cover bg-center bg-no-repeat relative text-foreground"
-  style={{
-    backgroundImage: `url(${images.image})`,
-  }}
->
+        className="w-full h-[200px] sm:h-[260px] md:h-[300px] lg:h-screen bg-cover bg-center bg-no-repeat relative text-foreground"
+        style={{
+          backgroundImage: `url(${images.image})`,
+        }}
+      >
         <div className="absolute md:left-20 left-10 top-10 md:top-15 lg:top-40">
           <h1 className="lg:text-[65px] md:text-[25px] text-[14px] font-bold lg:leading-17 md:leading-9 leading-5">
             New episode
@@ -37,9 +37,7 @@ function Home() {
             ></img>
           </div>
         </div>
-        <div
-          className="absolute shadow-xl bg-white rounded-xl flex items-center bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-[90%] h-[100px] gap-2 md:left-[10%] md:top-[100%] md:translate-x-0 md:-translate-y-1/2 md:w-[80%] md:h-[150px] md:gap-5 lg:left-[12%] lg:top-[100%] lg:max-w-[80%] lg:h-[200px] xl:w-[90%] xl:left-[10%] xl:top-full"
-        >
+        <div className="absolute shadow-xl bg-white rounded-xl flex items-center bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-[90%] h-[100px] gap-2 md:left-[10%] md:top-[100%] md:translate-x-0 md:-translate-y-1/2 md:w-[80%] md:h-[150px] md:gap-5 lg:left-[12%] lg:top-[100%] lg:max-w-[80%] lg:h-[200px] xl:w-[90%] xl:left-[10%] xl:top-[100%]">
           <img
             src={images.timmy}
             alt="timmy"

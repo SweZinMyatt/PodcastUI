@@ -6,6 +6,8 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+
 :root {
   --sea-ink: #173a40;
   --sea-ink-soft: #416166;
@@ -162,6 +164,27 @@ body,
 #app {
   min-height: 100%;
 }
+
+
+.swiper-pagination {
+  margin-top: 10px;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  margin-top: 30px;
+  background: #e1e2e4;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+  width: 15px;
+  height: 15px;
+}
+
 
 body {
   margin: 0;
